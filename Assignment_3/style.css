@@ -1,0 +1,300 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 39px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 1.5em; 
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 39px; 
+    max-width: 1350px; 
+    width: 100%;
+}
+
+.header-box {
+    grid-column: 1 / span 2;
+    background-color: #add8e6; 
+    border: 2px solid black; 
+    border-radius: 15px;
+    padding: 39px; 
+    display: flex;
+    align-items: center;
+    gap: 39px; 
+}
+
+.profile-circle {
+    width: 234px; 
+    height: 234px; 
+    border-radius: 50%;
+    /* Added background image for the profile circle */
+    background-image: url('IMG_5418.JPG');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #fff;
+    flex-shrink: 0;
+}
+
+.profile-text {
+    flex-grow: 1;
+}
+
+.hobbies-box, .aspirations-box {
+    background-color: #add8e6; /* Light blue */
+    border: 2px solid black; 
+    border-radius: 15px;
+    padding: 39px; 
+}
+
+h2 {
+    color: black; 
+    margin-top: 0;
+    font-size: 2.2em; 
+}
+
+ul {
+    padding-left: 39px; 
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* Stacks items vertically */
+    }
+    
+    .header-box {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 26px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 1.3em; 
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 26px; 
+    max-width: 900px; 
+    width: 100%;
+}
+
+.header-box {
+    grid-column: 1 / span 2;
+    background-color: #add8e6; /* Light blue */
+    border: 2px solid black; 
+    border-radius: 15px;
+    padding: 26px; 
+    display: flex;
+    align-items: center;
+    gap: 26px; 
+}
+
+.profile-circle {
+    width: 156px; /* Increased from 120px */
+    height: 156px; /* Increased from 120px */
+    border-radius: 50%;
+    /* Added background image for the profile circle */
+    background-image: url('IMG_5418.JPG');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #fff;
+    flex-shrink: 0;
+}
+
+.profile-text {
+    flex-grow: 1;
+}
+
+.hobbies-box, .aspirations-box {
+    background-color: #add8e6; /* Light blue */
+    border: 2px solid black; 
+    border-radius: 15px;
+    padding: 26px; 
+}
+
+h2 {
+    color: black; 
+    margin-top: 0;
+    font-size: 1.8em; 
+}
+
+ul {
+    padding-left: 26px; 
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* Stacks items vertically */
+    }
+    
+    .header-box {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 900px;
+    width: 100%;
+}
+
+.header-box {
+    grid-column: 1 / span 2;
+    background-color: #add8e6; /* Light blue */
+    border: 2px solid black; 
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.profile-circle {
+    width: 120px;
+    height: 120px;
+    border-rabody {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    marginmarginmargin: 0;
+    padding: 26px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 1.3em; 
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 26px;
+    max-width: 900px;
+    width: 100%;
+}
+
+.header-box {
+    grid-column: 1 / span 2;
+    background-color: #add8e6; /* Light blue */
+    border: 2px solid black; 
+    border-radius: 15px;
+    padding: 26px;
+    display: flex;
+    align-items: center;
+    gap: 26px; 
+}
+
+.profile-circle {
+    width: 156px; 
+    height: 156px; 
+    border-radius: 50%;
+    /* Added background image for the profile circle */
+    background-image: url('IMG_5418.JPG');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #fff;
+    flex-shrink: 0;
+}
+
+.profile-text {
+    flex-grow: 1;
+}
+
+.hobbies-box, .aspirations-box {
+    background-color: #add8e6; /* Light blue */
+    border: 2px solid black; 
+    border-radius: 15px;
+    padding: 26px;
+}
+
+h2 {
+    color: black; 
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+ul {
+    padding-left: 26px; 
+
+/* Responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; 
+    }
+    
+    .header-box {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+dius: 50%;
+    background-image: url('IMG_5418.JPG');
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #fff;
+    flex-shrink: 0;
+}
+
+.profile-text {
+    flex-grow: 1;
+}
+
+.hobbies-box, .aspirations-box {
+    background-color: #add8e6; /* Light blue */
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+h2 {
+    color: black; 
+    margin-top: 0;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: 1fr; /* Stacks items vertically */
+    }
+    
+    .header-box {
+        flex-direction: column;
+        text-align: center;
+    }
+}
